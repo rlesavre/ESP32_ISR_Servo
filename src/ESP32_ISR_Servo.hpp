@@ -78,7 +78,7 @@
 
 #include "ESP32FastTimerInterrupt.hpp"
 
-#define ESP32_MAX_PIN           39
+#define ESP32_MAX_PIN           40 // ESP32 S2 contains 40 GPIOs not 39
 #define ESP32_WRONG_PIN         255
 
 // From Servo.h - Copyright (c) 2009 Michael Margolis.  All right reserved.
